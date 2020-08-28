@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /modmail/
+RewriteCond %{REQUEST_URI} ^.*
+RewriteRule ^(.*)$ /modmail/passthrough.php?modmail_id=$1 [L]
