@@ -1,3 +1,5 @@
+// https://github.com/Eegras/dragory_modmailbot_addons/blob/master/plugins/setnick.js
+
 // This assumes it is sitting in a ./plugins/ directory.
 // Adjust this require to fit if the script is somewhere else
 const utils = require('../src/utils');
