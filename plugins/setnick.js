@@ -28,7 +28,7 @@ module.exports = function({ bot, knex, config, commands }) {
         }
         else
         {
-          thread.replyToUser(msg.member, "Your nickname has been set to "+args['nickname'], [], true);
+          thread.replyToUser(msg.member, "Your nickname has been set to `" + args['nickname'] + "`", [], true);
         }
       })
     }
