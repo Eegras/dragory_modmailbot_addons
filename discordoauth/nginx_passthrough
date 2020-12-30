@@ -5,10 +5,10 @@ ini_set('max_execution_time', 300); //300 seconds = 5 minutes. In case if your C
 
 error_reporting(E_ALL);
 
-define('OAUTH2_CLIENT_ID', '682427666867028033');
-define('OAUTH2_CLIENT_SECRET', 'E3wqgFzMKu2822fUsnFop4CW-RVYcmvE');
-define('OAUTH2_REDIRECT_URI', 'https://acp.omegarust.com/modmail/passthrough.php&response_type=code&scope=identify+guilds');
-define('INBOXGUILDID', 701936734761386016);
+define('OAUTH2_CLIENT_ID', '');
+define('OAUTH2_CLIENT_SECRET', '');
+define('OAUTH2_REDIRECT_URI', '');
+define('INBOXGUILDID', );
 
 $authorizeURL = 'https://discord.com/api/oauth2/authorize';
 $tokenURL = 'https://discord.com/api/oauth2/token';
