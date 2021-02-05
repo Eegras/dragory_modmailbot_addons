@@ -10,6 +10,6 @@
 
 module.exports = function({ bot, knex, config, commands }) {
   commands.addInboxThreadCommand('setpresence', '[presence$]', (msg, args, thread) => {
-    bot.editSelfSettings({'status': args.presence});
+    bot.editStatus(args.presence);
   });
 }
